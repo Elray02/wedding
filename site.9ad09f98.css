@@ -425,12 +425,33 @@ li > a {
   -ms-flex-pack: center;
   justify-content: center;
 }
+#containerFinalScore {
+  width: 98vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
 #finalScore {
   border: none;
   background: white;
+  color: black;
   font-size: 4em;
-  width: 45vw;
+  width: 50%;
   text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+#totalScore{
+  font-size: 4em;
 }
 
 #honeyMoon {
@@ -665,6 +686,14 @@ li > a {
     font-size: 0.5em;
   }
 
+  .fp-controlArrow.fp-next {
+    border-width: 28.5px 0 28.5px 24px;
+  }
+  .fp-controlArrow.fp-prev {
+    border-width: 28.5px  24px  28.5px 0;
+  }
+
+
   #btnContainer {
     height: 50%;
   }
@@ -703,10 +732,31 @@ li > a {
   .date {
     font-size: 10vh;
   }
-  
+
   #visualization {
-    grid-template-rows: 4vh 28vh 20vh 36vh;
+    grid-template-rows: 4vh 40vh 40vh;
     top: 6vh;
     grid-gap: 0px;
+  }
+
+  #travel_container {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1;
+
+    -ms-grid-row: 3;
+    grid-row: 3;
+
+    display: none;
+  }
+  #years_container {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1;
+
+    -ms-grid-row: 4;
+    grid-row: 3;
+
+    align-self: auto;
   }
 }

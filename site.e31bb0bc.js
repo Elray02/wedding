@@ -5929,7 +5929,7 @@ var _animejs = _interopRequireDefault(require("animejs"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var scoreAnimation = function scoreAnimation(value) {
+var scoreAnimation = function scoreAnimation(result) {
   var animation = _animejs.default.timeline({
     easing: "easeOutExpo",
     duration: 750,
@@ -5938,12 +5938,12 @@ var scoreAnimation = function scoreAnimation(value) {
 
   animation.add({
     targets: "#finalScore",
-    value: [0, value],
+    value: [0, result],
     round: 1,
     easing: "easeInOutExpo"
   }).add({
     targets: "#finalScore",
-    value: [value, 0],
+    value: [result, 0],
     delay: "2000",
     round: 1,
     easing: "easeInOutExpo"
@@ -26991,7 +26991,7 @@ var choose = function choose(formToPickUp) {
 };
 
 var punteggio = function punteggio(userInput, risposta) {
-  return userInput === risposta ? 1 : -1;
+  return userInput === risposta ? 1 : 0;
 };
 },{"animejs":"node_modules/animejs/lib/anime.es.js","fullpage.js":"node_modules/fullpage.js/dist/fullpage.js","./textAnimation":"textAnimation.js","./imageAnimation":"imageAnimation.js","./scoreAnimation":"scoreAnimation.js","./traduzione":"traduzione.js"}],"../../../.nvm/versions/node/v10.11.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -27020,7 +27020,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38929" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41591" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
