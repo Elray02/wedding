@@ -444,7 +444,7 @@ li > a {
 #finalScore {
   border: none;
   background: white;
-  color: black;
+  color: #000000;
   font-size: 4em;
   width: 50%;
   text-align: center;
@@ -758,5 +758,8 @@ li > a {
     grid-row: 3;
 
     align-self: auto;
+  }
+  #finalScore{
+    width: 70%
   }
 }
