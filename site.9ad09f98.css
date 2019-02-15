@@ -446,7 +446,7 @@ li > a {
   background: white;
   color: #000000;
   font-size: 4em;
-  width: 50%;
+  width: 13vw;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -761,6 +761,6 @@ li > a {
   }
   #finalScore{
     font-family: "Josefin Sans", sans-serif;
-    width: 70%;
+    /* width: 70%; */
   }
 }
