@@ -26803,7 +26803,7 @@ var _default = function _default() {
     id: "conferma"
   }];
 
-  if (language === "en") {
+  if (language != "it") {
     idContainer.forEach(function (element) {
       //  clear before put stuff inside
       document.getElementById(element.id).innerHTML = "";
@@ -27021,7 +27021,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39797" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42087" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
