@@ -26803,14 +26803,13 @@ var _default = function _default() {
     id: "conferma"
   }];
 
-  if (language != "it") {
+  if (language != "it-IT") {
     idContainer.forEach(function (element) {
       //  clear before put stuff inside
       document.getElementById(element.id).innerHTML = "";
       document.getElementById(element.id).innerHTML = element.name;
     });
     (0, _visualization.default)(_chartLabelIta.labelEng);
-    console.log(_mapEng.default);
     exports.mappaBig = mappaBig = _mapEng.default;
   } else {
     (0, _visualization.default)(_chartLabelIta.labelIta);
@@ -27021,7 +27020,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42087" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38929" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

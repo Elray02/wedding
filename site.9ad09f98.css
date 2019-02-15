@@ -175,8 +175,8 @@ ul {
   display: grid;
   -ms-grid-columns: 40vw 40vw;
   grid-template-columns: 10vw 40vw 40vw 10vw;
-  -ms-grid-rows: 8vh  54vh 25vh;
-  grid-template-rows: 8vh  54vh 25vh;
+  -ms-grid-rows: 8vh 54vh 25vh;
+  grid-template-rows: 8vh 54vh 25vh;
 
   grid-gap: 1vh;
   justify-items: stretch;
@@ -482,7 +482,7 @@ li > a {
   grid-row: 1;
   align-self: center;
   display: none;
-  color: #00000000
+  color: #00000000;
 }
 #maroc {
   -ms-grid-column: 3;
@@ -496,7 +496,7 @@ li > a {
 #arrowDown {
   -ms-grid-column: 3;
   -ms-grid-column-span: 2;
-  grid-column:2/4;
+  grid-column: 2/4;
   -ms-grid-row: 3;
   grid-row: 2;
   align-self: center;
@@ -511,7 +511,7 @@ li > a {
   grid-row: 3;
   justify-self: center;
 }
-#honeySvg{
+#honeySvg {
   -ms-grid-column: 3;
   -ms-grid-column-span: 2;
   grid-column: 1/5;
@@ -592,7 +592,7 @@ li > a {
     -ms-grid-columns: 75vw;
     grid-template-columns: 100vw;
     -ms-grid-rows: 5vh 40vh 40vh 40vh;
-    grid-template-rows: 6vh 34vh 25vh minmax( 30vh, 38vh) ;
+    grid-template-rows: 6vh 34vh 25vh minmax(30vh, 38vh);
 
     grid-gap: 1vh;
 
@@ -635,9 +635,9 @@ li > a {
 
     align-self: auto;
   }
-#listaConsigli{
-  width: 90%;
-}
+  #listaConsigli {
+    width: 90%;
+  }
   #mapContainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -682,11 +682,9 @@ li > a {
     justify-items: stretch;
   }
   #honeyMoon .svgDraw {
-
     max-width: 100%;
     max-height: 67%;
-
-}
+  }
   #honeyMoon img {
     max-width: 90%;
   }
@@ -697,4 +695,18 @@ li > a {
     max-width: 80%;
   }
 }
+
+@media only screen and (max-height: 600px) {
+  .item {
+    font-size: 2.5em;
+  }
+  .date {
+    font-size: 10vh;
+  }
   
+  #visualization {
+    grid-template-rows: 4vh 28vh 20vh 36vh;
+    top: 6vh;
+    grid-gap: 0px;
+  }
+}
