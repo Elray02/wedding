@@ -735,7 +735,7 @@ li > a {
 
   #visualization {
     grid-template-rows: 4vh 40vh 40vh;
-    top: 6vh;
+    top: 2vh;
     grid-gap: 0px;
   }
 
