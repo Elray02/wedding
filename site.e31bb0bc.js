@@ -26757,10 +26757,11 @@ exports.mappaBig = mappaBig;
 
 var _default = function _default() {
   var language = window.navigator.userLanguage || window.navigator.language;
+  console.log(language);
   var floatingMenu = "\n  <a\n    data-menuanchor=\"facce_slide\"\n    href=\"#facce_slide\"\n  >Home</a>\n\n  <a\n    data-menuanchor=\"invitation_slide\"\n    href=\"#invitation_slide\"\n  >When</a>\n\n  <a\n    data-menuanchor=\"visualization_slide\"\n    href=\"#visualization_slide\"\n   >Our Story in Data</a>\n\n  <a\n    data-menuanchor=\"instruction_slide\"\n    href=\"#instruction_slide\"\n  >Where/How</a>\n\n  <a\n    data-menuanchor=\"consigli_slide\"\n    href=\"#consigli_slide\"\n  >Hints</a>\n\n  <a\n    data-menuanchor=\"game_slide\"\n    href=\"#game_slide\"\n  >Do you know us?</a>\n\n  <a\n    data-menuanchor=\"conferma_slide\"\n    href=\"#conferma_slide\"\n  >Confim!</a>";
   var visualization = "Our Story in Data";
-  var instruction = "\n  <p class=\"titleSection\"> Where When How</p>\n  <div>\n    <p>\n      We will get married in Montegrino Valtravaglia(VA).\n    </p>\n    <p>\n      We will wait you at:\n      <b>14.30</b>.\n    </p>\n  </div>\n  <div id=\"mapContainer\">\n    <a\n      href=\"https://goo.gl/maps/Cw6mZYMhL4M2\"\n      target=\"_blank\"\n    >\n      <p>Click here to the reference map</p>\n    </a>\n    <p>\n      If you are coming from Milano/Malpensa by car please mind to don't cross 'Fabiasco', in this little town the streets are very narrow.\n    </p>\n    <p>\n      Once you are arrived to the parking area please use this map to reach \"Lago Bolle\".\n    </p>\n    <img\n      src=\"".concat(_mapEng.default, "\"\n      id=\"mappa\"\n      alt=\"mappa Molto bella\"\n    >\n  </div>");
-  var consigli = "\n  <p class=\"titleSection\">Hints</p>\n  <ul id=\"listaConsigli\">\n    <li class=\"customLi\">\n      <b>Wear comfortable shoes:</b>\n\n      the wedding location is in a wonderful lawn next to a forest.\n\n      <b>avoid to use</b>\n\n      stiletto high heels (you can wear whathewer you want, but don't forget to bring a comfy change).\n    </li>\n\n    <li class=\"customLi\">\n      <b> Use the multy layers power:</b>\n\n      we will be on the mountain, don't dress too light if you're not planning to dance hard.\n    </li>\n\n    <li class=\"customLi\">\n      <b>Nature:</b>\n      enjoy the Nature, we kindly ask you to park the cars in the main parking area in Montegrino.\n    \n      <a\n        data-menuanchor=\"instruction_slide\"\n        href=\"#instruction_slide\"\n      >check the map</a>\n\n      .\n    </li>\n\n    <li class=\"customLi\">\n      <b>Hotel:</b>\n\n      please contact us if you're planning to join us all night long.\n    </li>\n\n    <li class=\"customLi\">\n    <b>Food:</b>\n      please advise if you have any intollerance/allergy.\n    </li>\n  </ul>";
+  var instruction = "\n  <p class=\"titleSection\"> Where When How</p>\n  <div>\n    <p>\n      We will get married in Montegrino Valtravaglia(VA).\n    </p>\n    <p>\n      We will wait you at:\n      <b>14.30</b>.\n    </p>\n  </div>\n  <div id=\"mapContainer\">\n    <a\n      href=\"https://goo.gl/maps/Cw6mZYMhL4M2\"\n      target=\"_blank\"\n      class=\"link\"\n    >\n      <p>Click here to the reference map</p>\n    </a>\n    <p>\n      If you are coming from Milano/Malpensa by car please mind to don't cross 'Fabiasco', in this little town the streets are very narrow.\n    </p>\n    <p>\n      Once you are arrived to the parking area please use this map to reach \"Lago Bolle\".\n    </p>\n    <img\n      src=\"".concat(_mapEng.default, "\"\n      id=\"mappa\"\n      alt=\"mappa Molto bella\"\n    >\n    <p>(press to see it bigger)</p>\n  </div>");
+  var consigli = "\n  <p class=\"titleSection\">Hints</p>\n  <ul id=\"listaConsigli\">\n    <li class=\"customLi\">\n      <b>Wear comfortable shoes:</b>\n\n      the wedding location is in a wonderful lawn next to a forest.\n\n      <b>avoid to use</b>\n\n      stiletto high heels (you can wear whathewer you want, but don't forget to bring a comfy change).\n    </li>\n\n    <li class=\"customLi\">\n      <b> Use the multy layers power:</b>\n\n      we will be on the mountain, don't dress too light if you're not planning to dance hard.\n    </li>\n\n    <li class=\"customLi\">\n      <b>Nature:</b>\n      enjoy the Nature, we kindly ask you to park the cars in the main parking area in Montegrino.\n    \n      <a\n        data-menuanchor=\"instruction_slide\"\n        href=\"#instruction_slide\"\n        class=\"link\"\n      >check the map</a>\n\n      .\n    </li>\n\n    <li class=\"customLi\">\n      <b>Hotel:</b>\n\n      please contact us if you're planning to join us all night long.\n    </li>\n\n    <li class=\"customLi\">\n    <b>Food:</b>\n      please advise if you have any intollerance/allergy.\n    </li>\n  </ul>";
   var primaDomanda = "\n  <p>\n    <b>\n     Where Ele and Fede meet for the very first time?\n    </b>\n  </p>\n\n  <div>\n  <input\n    type=\"radio\"\n    id=\"primoChoice1\"\n    name=\"primo\"\n    value=\"email\"\n  ></input>\n\n  <label for=\"primoChoice1\">luna-park</label>\n  </div>\n\n<div>\n<input\n  type=\"radio\"\n  id=\"primoChoice2\"\n  name=\"primo\"\n  value=\"prima risposta\"\n></input>\n\n<label for=\"primoChoice2\">bike kitchen</label>\n</div>\n\n<div>\n<input\n  type=\"radio\"\n  id=\"primoChoice3\"\n  name=\"primo\"\n  value=\"mail\"\n></input>\n\n<label for=\"primoChoice3\">at the beach</label>\n</div>";
   var secondaDomanda = "\n  \n<p>\n  <b>\n     When the first kiss?\n  </b>\n</p>\n\n<div>\n<input\n  type=\"radio\"\n  id=\"secondoChoice1\"\n  name=\"secondo\"\n  value=\"email\"\n></input>\n\n<label for=\"secondoChoice1\">2 minutes e 35 seconds</label>\n</div>\n\n<div>\n<input\n  type=\"radio\"\n  id=\"secondoChoice2\"\n  name=\"secondo\"\n  value=\"seconda risposta\"\n></input>\n\n<label for=\"secondoChoice2\">5 years</label>\n</div>\n\n<div>\n<input\n  type=\"radio\"\n  id=\"secondoChoice3\"\n  name=\"secondo\"\n  value=\"mail\"\n></input>\n\n<label for=\"secondoChoice3\">kiss?</label>\n</div>\n";
   var terzaDomanda = "\n  <p>\n    <b>\n       Our favourite food?\n    </b>\n  </p>\n\n<div>\n  <input\n    type=\"radio\"\n    id=\"terzoChoice1\"\n    name=\"terzo\"\n    value=\"email\"\n  ></input>\n\n  <label for=\"terzoChoice1\">Himalayan berries</label>\n</div>\n\n<div>\n  <input\n    type=\"radio\"\n    id=\"terzoChoice2\"\n    name=\"terzo\"\n    value=\"mail\"\n  ></input>\n\n  <label for=\"terzoChoice2\">pizza!</label>\n</div>\n\n<div>\n  <input\n    type=\"radio\"\n    id=\"terzoChoice3\"\n    name=\"terzo\"\n    value=\"terza risposta\"\n  ></input>\n\n  <label for=\"terzoChoice3\">cheese</label>\n</div>\n";
@@ -26803,7 +26804,7 @@ var _default = function _default() {
     id: "conferma"
   }];
 
-  if (language != "it-IT") {
+  if (language != "it") {
     idContainer.forEach(function (element) {
       //  clear before put stuff inside
       document.getElementById(element.id).innerHTML = "";
@@ -26872,7 +26873,7 @@ for (var i = 0; i < pathEls.length; i++) {
     strokeWidth: [0, 3],
     strokeDashoffset: [offset, 0],
     duration: _animejs.default.random(2000, 5000),
-    delay: _animejs.default.random(0, 2000),
+    delay: _animejs.default.random(0, 1000),
     loop: true,
     direction: 'alternate',
     easing: 'easeInOutSine',
@@ -26889,7 +26890,7 @@ var risposte = ["prima risposta", "seconda risposta", "terza risposta", "quarta 
 var nomeForm = ["primaDomanda", "secondaDomanda", "terzaDomanda", "quartaDomanda"];
 var myFullpage = new _fullpage.default("#fullpage", {
   slideSelector: ".intro",
-  anchors: ["facce_slide", "invitation_slide", "visualization_slide", "instruction_slide", "consigli_slide", "game_slide", "conferma_slide"],
+  anchors: ["facce_slide", "invitation_slide", "visualization_slide", "instruction_slide", "consigli_slide", "game_slide", "honey_moon", "conferma_slide"],
   menu: "#floatingMenu",
   loopHorizontal: false,
   afterLoad: function afterLoad(origin, destination, direction) {
@@ -27020,7 +27021,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39067" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40553" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
