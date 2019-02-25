@@ -453,7 +453,7 @@ ul {
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
 }
-#totalScore{
+#totalScore {
   font-size: 4em;
 }
 
@@ -488,8 +488,6 @@ ul {
   align-self: center;
 }
 
-
-
 #arrowDown {
   -ms-grid-column: 3;
   -ms-grid-column-span: 2;
@@ -507,7 +505,7 @@ ul {
   -ms-grid-row: 1;
   grid-row: 1;
   justify-self: center;
-  align-self: center
+  align-self: center;
 }
 #honeySvg {
   -ms-grid-column: 3;
@@ -517,7 +515,7 @@ ul {
   grid-row: 1;
   z-index: 4;
   justify-self: center;
-  align-self: center
+  align-self: center;
 }
 #iban {
   -ms-grid-column: 3;
@@ -528,7 +526,6 @@ ul {
   justify-self: center;
   align-self: center;
 }
-
 
 @media only screen and (max-width: 600px) {
   p {
@@ -584,7 +581,7 @@ ul {
     -ms-grid-columns: 75vw;
     grid-template-columns: 100vw;
     -ms-grid-rows: 5vh 40vh 40vh 40vh;
-    grid-template-rows:3vh 31vh 25vh 30vh;
+    grid-template-rows: 3vh 31vh 25vh 30vh;
 
     grid-gap: 1vh;
 
@@ -655,19 +652,17 @@ ul {
   .questionario label {
     font-size: 0.5em;
   }
-  #finalScore{
+  #finalScore {
     font-family: "Josefin Sans", sans-serif;
     width: 35vw;
-
   }
 
   .fp-controlArrow.fp-next {
     border-width: 28.5px 0 28.5px 24px;
   }
   .fp-controlArrow.fp-prev {
-    border-width: 28.5px  24px  28.5px 0;
+    border-width: 28.5px 24px 28.5px 0;
   }
-
 
   #btnContainer {
     height: 50%;
@@ -690,12 +685,11 @@ ul {
     max-height: 67%;
   }
   #honeyMoon img {
-    max-width:80%;
+    max-width: 80%;
   }
   #iban {
     font-size: 0.4em;
   }
-
 }
 
 @media only screen and (max-height: 600px) {
@@ -716,7 +710,7 @@ ul {
     display: none;
   }
 
-  #years_container{
+  #years_container {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1;
@@ -725,14 +719,14 @@ ul {
     grid-row: 3;
     align-self: auto;
   }
-  #finalScore{
+  #finalScore {
     font-size: 1em;
     font-family: "Josefin Sans", sans-serif;
     width: 10vw;
     color: #000000;
   }
-  #totalScore{
-    font-size:1em;
+  #totalScore {
+    font-size: 1em;
   }
 
   #honeyMoon {
@@ -742,11 +736,9 @@ ul {
     -ms-grid-columns: 45vw 45vw;
     grid-template-columns: repeat(4, 25vw);
     -ms-grid-rows: 20vh 20vh 24vh 26vh;
-    grid-template-rows:  24vh 6vh 32vh 10vh;
-  
+    grid-template-rows: 24vh 6vh 32vh 10vh;
+
     grid-gap: 1vh;
     justify-items: stretch;
   }
-
-
 }
