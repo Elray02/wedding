@@ -691,7 +691,7 @@ ul {
     -ms-grid-columns: 45vw 45vw;
     grid-template-columns: repeat(4, 21vw);
     -ms-grid-rows: 20vh 20vh 24vh 26vh;
-    grid-template-rows: 18vh 7vh 25vh 16vh 18vh;
+    grid-template-rows: 5vh 7vh 25vh 16vh 18vh;
     grid-gap: 2vh;
     justify-items: stretch;
   }
