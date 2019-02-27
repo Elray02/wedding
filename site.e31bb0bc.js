@@ -26769,7 +26769,7 @@ var _default = function _default() {
   var quartaDomanda = "\n <p>\n   <b>\n      The city we love the most\n   </b>\n</p>\n\n<div>\n  <input\n    type=\"radio\"\n    id=\"quartoChoice1\"\n    name=\"quarto\"\n    value=\"email\"\n  ></input>\n\n  <label for=\"quartoChoice1\">Tokyo</label>\n</div>\n\n<div>\n  <input\n    type=\"radio\"\n    id=\"quartoChoice2\"\n    name=\"quarto\"\n    value=\"NY\"\n  ></input>\n\n  <label for=\"quartoChoice2\">Paris</label>\n</div>\n\n<div>\n  <input\n    type=\"radio\"\n    id=\"quartoChoice3\"\n    name=\"quarto\"\n    value=\"quarta risposta\"\n  ></input>\n\n  <label for=\"quartoChoice3\">Amsterdam</label>\n</div>\n";
   var containerPunteggio = "\n<h2>Score</h2>\n\n<div id=\"containerFinalScore\">\n<input\n  id=\"finalScore\"\n  value=\"0\"\n  disabled\n>\n<p id=\"totalScore\">/4</p>\n</div>\n";
   var textTravel = 'Support our need to explore';
-  var conferma = "\n<p class=\"titleSection\">Confirm!</p>\n\n<div id=\"btnContainer\">\n  <a\n    href=\"https://goo.gl/forms/FgBmgt5eUckGux3J3\"\n    target=\"_blank\"\n    id=\"btn_conferma\"\n  >\n    <span>Ok I'm in</span>\n  </a>\n</div>\n";
+  var conferma = "\n<p class=\"titleSection\">Confirm!</p>\n\n<div id=\"btnContainer\">\n  <a\n    href=\"https://goo.gl/forms/g6ct2zxzSo7122Iy1\"\n    target=\"_blank\"\n    id=\"btn_conferma\"\n  >\n    <span>Ok I'm in</span>\n  </a>\n</div>\n";
   var idContainer = [{
     name: floatingMenu,
     id: "floatingMenu"
