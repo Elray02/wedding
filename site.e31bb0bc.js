@@ -5901,18 +5901,18 @@ var imageAnimation = _animejs.default.timeline({
 
 exports.imageAnimation = imageAnimation;
 imageAnimation.add({
-  targets: "#fede",
-  opacity: [0, 1],
-  // scaleY: [0.5, 1],
-  translateX: ["-15em", 0],
-  easing: "spring(1, 80, 12 0)",
-  duration: 800
-}).add({
   targets: "#ele",
   opacity: [0, 1],
   // scaleY: [0.5, 1],
   translateX: ["15em", 0],
   // easing: "easeInOutQuint",
+  easing: "spring(1, 80, 12 0)",
+  duration: 800
+}).add({
+  targets: "#fede",
+  opacity: [0, 1],
+  // scaleY: [0.5, 1],
+  translateX: ["-15em", 0],
   easing: "spring(1, 80, 12 0)",
   duration: 800
 });
@@ -5944,7 +5944,7 @@ var scoreAnimation = function scoreAnimation(result) {
   }).add({
     targets: "#finalScore",
     value: [result, 0],
-    delay: "2000",
+    delay: "5000",
     round: 1,
     easing: "easeInOutExpo"
   });
@@ -27025,7 +27025,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34225" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42537" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
